@@ -38,6 +38,7 @@
 * app.js: 初始化backend service，连接chaincode
 
 #### 运行说明
+
  * 如前文所说，这段代码历史比较悠久，不确定能否运行起来，因为相关依赖版本可能不对，请尽量按照相关版本来搞。
  * docker.sh: 用来下载相关的Docker镜像用的，主要是hyperledger。
  * chaincode目录： 该目录用来搭建起整个hyperledger几个Docker镜像的，具体命令请查阅docker-compose。
