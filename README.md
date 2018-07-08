@@ -37,4 +37,11 @@
 * pm2.sh: 如果不采用Docker部署，pm2部署也是可以
 * app.js: 初始化backend service，连接chaincode
 
+#### 运行说明
+ * 如前文所说，这段代码历史比较悠久，不确定能否运行起来，因为相关依赖版本可能不对，请尽量按照相关版本来搞。
+ * docker.sh: 用来下载相关的Docker镜像用的，主要是hyperledger。
+ * chaincode目录： 该目录用来搭建起整个hyperledger几个Docker镜像的，具体命令请查阅docker-compose。
+ * 前面如果都搭建起来的话，需要查看输出的log是否有错误。
+ * 之后是搭建nodejs层，在 basedocker/nodeNnpm里面，这个只需要运行一次，主要是CHINA网络不稳定，会导致环境大概率下载失败
+ * 以上是根据记忆写的，可能有些出入，大体方向肯定是没错的。
 
